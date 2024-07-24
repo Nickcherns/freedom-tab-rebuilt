@@ -1,0 +1,25 @@
+html,body { 
+    margin:0; 
+    padding:0; 
+    height:100%; 
+    width:100%; 
+}
+body {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.box_container {
+    display: block;
+    background-color: gray;
+    height: 200px;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+
+.box_buttons {
+    text-align: center;
+}  
